@@ -58,6 +58,7 @@ body {
     font-size: 11px;
     text-align: center;
     color: #ffffff;
+    margin-left: 50px;
 
 }
 
@@ -102,7 +103,7 @@ input {
     width: 300px;
     flex-direction: column;
     align-items: start;
-    margin-left: 460px;
+    margin-left: 520px;
     margin-top: 150px;
     padding: 20px;
     border-radius: 20px;
