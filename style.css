@@ -3,31 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     background: #36384d;
 }
-.show{
+
+.show {
     display: block;
 }
+
 .hide {
     display: none;
 }
 
 .main-container {
-    width: 100%;
+    width: 95%;
     max-width: 1440px;
     padding: 0 20px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     background: rgb(66, 63, 63);
- 
+    margin-left: 250px;
+    margin-top: 15px;
+
 }
+
 .card01 {
     background: hsl(0, 0%, 100%);
     width: 65%;
@@ -45,9 +48,10 @@ body {
     flex-direction: column;
 }
 
-h1{
+h1 {
     font-size: 55px;
 }
+
 .para1 {
     font-size: 16px;
     line-height: 26px;
@@ -56,11 +60,12 @@ h1{
     margin-bottom: 20px;
 }
 
-li{
+li {
     font-size: 14px;
     font-weight: 500;
     color: hsl(235, 18%, 26%);
 }
+
 .image {
     margin-top: 10px;
     width: 100%;
@@ -81,10 +86,12 @@ input {
     border-radius: 5px;
 
 }
-label{
+
+label {
     color: black;
     font-size: 22px;
 }
+
 .btn {
     border: none;
     border-radius: 5px;
@@ -94,9 +101,11 @@ label{
     padding: 19px;
     color: white;
 }
+
 .btn:hover {
-    background:#ff6741;
+    background: #ff6741;
 }
+
 .placeholder-red::placeholder {
     color: crimson;
     font-size: 18px;
@@ -107,13 +116,11 @@ label{
     background-color: #fff;
     padding: 30px 40px 40px 40px;
     border-radius: 20px;
-    display: none;
+    /* display: none; */
     margin-left: 480px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-} 
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
 
 .image2 {
     margin-top: 20px;
@@ -142,15 +149,18 @@ label{
     padding: 18px;
     width: 360px;
 }
+
 .btn2:hover {
     background: #ff6741;
-    
+
 }
+
 .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -161,6 +171,12 @@ label{
 
 .attribution a {
     color: hsl(227, 9%, 80%);
+}
+
+.req125 {
+    position: absolute;
+    left: 495px;
+    bottom: 230px;
 }
 
 @media screen and (max-width:375px) {

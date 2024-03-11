@@ -42,34 +42,35 @@
 
 
         <div class="form">
-        <label for="">
-          Email address
+          <label for="">
+            Email address
 
-        </label> &nbsp; <br>
-        
-        <input type="text" class="input" placeholder="email@company.com"
-          required> <br> <br>
-        <button class="btn">
-          Subscribe to monthly newsletter
+          </label> &nbsp; <br>
 
-        </button>
-      </div>
+          <input type="email" id="email" class="input" placeholder="email@company.com"> <br> <br>
+          <button class="btn" onclick="validateEmail()">
+            Subscribe to monthly newsletter
+
+          </button>
+        </div>
       </div>
       <div class="card2 ">
         <img class="image" src="./images/illustration-sign-up-desktop.svg" alt="">
       </div>
     </div>
+
+    <div class="Req req125">
+
+    </div>
   </div>
 
-  <div class="second-Container  ">
+  <div class="second-Container  hide">
     <img class="image2 " src="./images/icon-success.svg" alt="">
     <h1 class="header">Thanks for subscribing!</h1>
-    <p class="secondpara">A confirmation email has been sent to <span> <b>ash@loremcompany.com.</b></span>
+    <p class="secondpara">A confirmation email has been sent to <span> <b id="FullOfEmail">gsfgsfgs</b></span>
       Please open it and click the button inside to confirm your subscription.</p>
     <button class="btn2"> Dismiss message </button>
   </div>
-
-
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
